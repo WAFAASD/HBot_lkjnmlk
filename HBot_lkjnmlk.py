@@ -5,7 +5,7 @@ import os
 import time
 from pystyle import *
 if os.geteuid() != 0:
-    Write.Print("This program must be run with (root) privileges!",Colors.orange,interval=0.00)
+    Write.Print("This program must be run with (root) privileges!\n",Colors.orange,interval=0.00)
     exit(1)
 os.system("clear")
 Write.Print("""                                                                  
