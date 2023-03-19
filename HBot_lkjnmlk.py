@@ -1,7 +1,7 @@
 import os
 
 if os.geteuid() != 0:
-    print("This program must be run with root privileges!")
+    Write.Print("This program must be run with (root) privileges!",Colors.orange,interval=0.00)
     exit(1)
 
 # The rest of your code goes here...
